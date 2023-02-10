@@ -103,23 +103,14 @@ body {
         display: flex;
         justify-content: space-evenly;
         align-items: baseline;
-        padding: 10px;
+        padding: 0px;
     }
     .navigation nav .logo {
-        margin-right: 70px;
-    }
-    .navigation nav .logo a {
-        color: rgb(255, 255, 255);
-        font-size: 35px;
-        font-weight: bold;
+        margin-right: 0px;
     }
     .navigation nav .links ul {
         display: flex;
-        gap: 15px;
-    }
-    .navigation nav .links ul li a {
-        color: rgb(255, 255, 255);
-        font-size: 28px;
+        gap: 20px;
     }
     .navigation nav .links ul li a .ri-github-line {
         display: none;
@@ -143,11 +134,11 @@ body {
         display: block;
         text-align: center;
         align-items: center;
-        padding: 40px;
+        padding: 20px;
     }
     .content .header .text h1 {
         color: rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 28px;
     }
     .content .header .text span {
         color: rgb(130, 130, 130);
@@ -157,8 +148,12 @@ body {
         color: rgb(255, 255, 255);
         font-size: 14px;
     }
+    .content .header .thumbnail {
+        display: flex;
+        justify-content: center;
+    }
     .content .header .thumbnail img {
-        width: 300px;
+        width: 320px;
     }
 
 
@@ -166,7 +161,7 @@ body {
     .copyright {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 60px;
     }
     .copyright p {
         color: rgb(255, 255, 255);
